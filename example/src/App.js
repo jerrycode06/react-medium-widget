@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import MediumProfile from 'react-medium-profile'
+import MediumProfile from 'react-medium-widget'
 
 export default class App extends Component {
   constructor(props) {

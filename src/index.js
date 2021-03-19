@@ -69,7 +69,7 @@ export default class MediumProfile extends Component {
         <img
           onClick={() => this.open()}
           style={{ width: '100%', height: '100%' }}
-          src={Logo}
+          src='https://upload.wikimedia.org/wikipedia/commons/e/ec/Medium_logo_Monogram.svg'
         />
         <Modal
           style={{ backgroundColor: 'rgba(0,0,0,0.6)' }}
@@ -152,7 +152,11 @@ export default class MediumProfile extends Component {
                     User not found
                   </h5>
                 )}
-                <img style={{ marginLeft: '5px' }} src={Logo} width='20px' />
+                <img
+                  style={{ marginLeft: '5px' }}
+                  src='https://upload.wikimedia.org/wikipedia/commons/e/ec/Medium_logo_Monogram.svg'
+                  width='20px'
+                />
               </div>
               <FadeIn>
                 {this.state.items.map((item, index) => (
