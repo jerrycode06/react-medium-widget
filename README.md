@@ -4,6 +4,11 @@
 
 [![NPM](https://img.shields.io/npm/v/react-medium-widget.svg)](https://www.npmjs.com/package/react-medium-widget) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Images
+
+![Screenshot 1](images/2.png)
+![Screenshot 1](images/1.png)
+
 ## Install
 
 ```bash
