@@ -29,6 +29,3 @@ jobs:
           node-version: '14'
       - name: Npm install
         run: npm install
-
-      - name: Check Formatting
-        run: npx prettier --check .
